@@ -1,9 +1,9 @@
 
 const Resume = () => {
-    const resumePdfUrl = '../../assets/Resume.pdf';
+    const resumePdfUrl = '../../assets/Gray Simple Resume.pdf';
 
     return (
-        <div className="bg-blue-950/60 ">
+        <div id="resume" className="bg-blue-950/60 ">
             <div className="container mx-auto py-12">
                 <div className="max-w-3xl mx-auto bg-white p-8 shadow-md rounded-lg">
                     <h2 className="text-3xl font-bold mb-4 text-gray-800">My Resume</h2>

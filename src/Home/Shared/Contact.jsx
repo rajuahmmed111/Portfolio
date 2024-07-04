@@ -4,7 +4,7 @@ import EmailForm from "./EmailForm";
 
 const Contact = () => {
     return (
-        <div className="">
+        <div id="contact">
             <div className="bg-blue-200 py-10 md:flex justify-between px-5 md:px-0">
                 <div className="container mx-auto px-5 md:px-20 ">
                     <h2 className="text-4xl font-bold pb-4">Contact Information</h2>

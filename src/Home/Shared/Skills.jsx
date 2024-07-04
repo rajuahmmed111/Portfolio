@@ -24,12 +24,12 @@ const Skills = () => {
     ];
 
     return (
-        <div className="container mx-auto px-5 py-10 bg-slate-600/80 text-gray-300">
+        <div id='skills' className="container mx-auto px-5 py-10 bg-slate-600/80 text-gray-300">
             <h1 className="text-4xl font-bold text-center mb-8">Skills</h1>
 
             <div className="mb-8">
                 <h2 className="text-2xl font-bold mb-4">Technical Skills</h2>
-                <div className="flex gap-4">
+                <div className="md:flex gap-4">
                     {technicalSkills.map((skill, index) => (
                         <div key={index} className="flex items-center">
                             <span className=" text-2xl mr-2">{skill.icon}</span>

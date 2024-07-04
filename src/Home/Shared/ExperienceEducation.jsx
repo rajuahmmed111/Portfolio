@@ -2,7 +2,7 @@ import certificateLink from '../../assets/certificate.pdf'
 
 const ExperienceEducation = () => {
     return (
-        <div className="bg-slate-400 py-14">
+        <div id='education' className="bg-slate-400 py-14">
             <div className="container mx-auto px-5 md:px-20 lg:px-20 md:flex justify-evenly">
                 <h2 className="text-4xl text-white font-bold text-center mb-8">Experience & Education</h2>
 

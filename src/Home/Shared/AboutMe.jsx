@@ -3,7 +3,7 @@ import image2 from '../../assets/20240629_155408.jpg'
 
 const AboutMe = () => {
     return (
-        <div className="bg-slate-600  container mx-auto md:flex  items-center justify-around md:p-24 p-4">
+        <div id='about' className="bg-slate-600  container mx-auto md:flex  items-center justify-around md:p-24 p-4">
             <div className="w-full md:w-2/3  text-slate-300">
                 <h2 className="text-4xl font-bold  md:mb-20 mb-8">About Me</h2>
                 <p className="text-lg mb-4">
