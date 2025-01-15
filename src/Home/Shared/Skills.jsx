@@ -24,12 +24,12 @@ const Skills = () => {
     ];
 
     return (
-        <div id='skills' className="container mx-auto px-5 py-10 bg-slate-600/80 text-gray-300">
+        <div id='skills' className="md:p-24 p-8 mx-auto text-gray-300">
             <h1 className="text-4xl font-bold text-center mb-8">Skills</h1>
 
             <div className="mb-8">
-                <h2 className="text-2xl font-bold mb-4">Technical Skills</h2>
-                <div className="md:flex gap-4">
+                <h2 className="text-2xl font-bold mb-4 text-emerald-400">Technical Skills</h2>
+                <div className="md:flex gap-4 text-4xl justify-center">
                     {technicalSkills.map((skill, index) => (
                         <div key={index} className="flex items-center">
                             <span className=" text-2xl mr-2">{skill.icon}</span>
@@ -40,7 +40,7 @@ const Skills = () => {
             </div>
 
             <div>
-                <h2 className="text-2xl font-bold mb-4">Interpersonal Skills</h2>
+                <h2 className="text-2xl font-bold mb-4 text-emerald-400">Interpersonal Skills</h2>
                 <div className="grid grid-cols-2 gap-4">
                     {interpersonalSkills.map((skill, index) => (
                         <div key={index} className="flex items-center">

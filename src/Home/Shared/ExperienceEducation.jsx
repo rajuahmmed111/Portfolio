@@ -2,13 +2,13 @@ import certificateLink from '../../assets/certificate.pdf'
 
 const ExperienceEducation = () => {
     return (
-        <div id='education' className="bg-slate-400 py-14">
+        <div id='education' className=" py-14">
             <div className="container mx-auto px-5 md:px-20 lg:px-20 md:flex justify-evenly">
-                <h2 className="text-4xl text-white font-bold text-center mb-8">Experience & Education</h2>
+                <h2 className="text-4xl text-gray-200 font-bold text-center mb-8">Experience & Education</h2>
 
                 <ul className="timeline timeline-vertical">
                     <li>
-                        <h3 className="timeline-start text-3xl font-semibold mb-6 text-white">Education</h3>
+                        <h3 className="timeline-start text-3xl font-semibold mb-6 text-emerald-400">Education</h3>
                         <hr />
                     </li>
                     <li>
@@ -24,7 +24,7 @@ const ExperienceEducation = () => {
                                     clipRule="evenodd" />
                             </svg>
                         </div>
-                        <div className="timeline-end timeline-box bg-white p-5 rounded-lg shadow">
+                        <div className="timeline-end timeline-box bg-emerald-100 p-5 rounded-lg shadow">
                             <h4 className="text-2xl font-bold">Higher Secondary School</h4>
                             <p className="text-gray-600 font-bold">DN College</p>
                             <p className="text-gray-600 font-semibold">2019 - 2021</p>
@@ -49,7 +49,7 @@ const ExperienceEducation = () => {
                                     clipRule="evenodd" />
                             </svg>
                         </div>
-                        <div className="timeline-end timeline-box bg-white p-5 rounded-lg shadow">
+                        <div className="timeline-end timeline-box bg-emerald-100 p-5 rounded-lg shadow">
                             <h4 className="text-2xl font-bold">Diploma in Computer Technology</h4>
                             <p className="text-gray-600 font-bold">Dhaka Mohila Polytechnic Institute</p>
                             <p className="text-gray-600 font-semibold">2020 - Present</p>
@@ -61,7 +61,7 @@ const ExperienceEducation = () => {
                         <hr />
                     </li>
                     <li>
-                        <h3 className="timeline-start text-3xl font-semibold mb-6 text-white">Experience</h3>
+                        <h3 className="timeline-start text-3xl font-semibold mb-6 text-emerald-400">Experience</h3>
                         <hr />
                     </li>
                     <li>
@@ -78,7 +78,7 @@ const ExperienceEducation = () => {
                                     clipRule="evenodd" />
                             </svg>
                         </div>
-                        <div className="timeline-end timeline-box bg-white p-5 rounded-lg shadow">
+                        <div className="timeline-end timeline-box bg-emerald-100 p-5 rounded-lg shadow">
                             <h4 className="md:text-2xl text-xl font-bold">Web Development Course</h4>
                             <p className="text-gray-600 font-bold">Programming Hero</p>
                             <p className="text-gray-600 font-semibold">Completed in 2024</p>
@@ -87,8 +87,8 @@ const ExperienceEducation = () => {
                                 - Completed various hands-on projects to apply the learned concepts.<br />
                                 - Participated in coding challenges and collaborative coding sessions.
                             </p>
-                            <div className=" py-4 border-t border-gray-200">
-                                <a href={certificateLink} target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:text-indigo-900 py-4 border-t border-gray-200 font-bold">View Certificate</a>
+                            <div className=" py-4 border-t border-emerald-400">
+                                <a href={certificateLink} target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:text-indigo-900 py-4 border-t border-gray-200 font-bold">View Certificate</a>
                             </div>
                         </div>
                         <hr />
@@ -107,7 +107,7 @@ const ExperienceEducation = () => {
                                     clipRule="evenodd" />
                             </svg>
                         </div>
-                        <div className="timeline-end timeline-box bg-white p-5 rounded-lg shadow">
+                        <div className="timeline-end timeline-box bg-emerald-100 p-5 rounded-lg shadow">
                             <h4 className="text-2xl font-bold">Web Developer Intern</h4>
                             <p className="text-gray-600 font-bold">Techlight IT Institute</p>
                             <p className="text-gray-600 font-semibold">July 2024 - Present</p>

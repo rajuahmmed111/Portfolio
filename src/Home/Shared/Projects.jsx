@@ -1,35 +1,36 @@
+/* eslint-disable react/prop-types */
 
 // eslint-disable-next-line react/prop-types
 const ProjectCard = ({ name, image, description, coreFeatures, usedTechnologies, liveLink, clientGitHub, serverGitHub }) => {
     return (
-        <div className="max-w-lg mx-auto bg-gray-200 shadow-xl rounded-lg overflow-hidden mb-8 ">
+        <div className="max-w-lg mx-auto bg-slate-800 text-gray-200 shadow-xl rounded-lg overflow-hidden mb-8 min-h-screen">
             <div className="px-6 py-4">
                 <img className="p-4 rounded-lg" src={image} alt="" />
-                <h2 className="font-bold text-2xl mb-2 text-gray-800">{name}</h2>
-                <p className="text-gray-700 text-base mb-4">{description}</p>
+                <h2 className="font-bold text-2xl mb-2 text-gray-200">{name}</h2>
+                <p className="text-gray-200 text-base mb-4">{description}</p>
                 <div className="mb-4">
-                    <h3 className="font-semibold text-lg text-gray-800">Core Features:</h3>
-                    <ul className="list-disc list-inside ml-4 text-gray-700">
+                    <h3 className="font-semibold text-lg text-gray-200">Core Features:</h3>
+                    <ul className="list-disc list-inside ml-4 text-gray-200">
                         {coreFeatures.map((feature, index) => (
                             <li key={index}>{feature}</li>
                         ))}
                     </ul>
                 </div>
                 <div className="mb-4">
-                    <h3 className="font-semibold text-lg text-gray-800">Used Technologies:</h3>
-                    <ul className="list-disc list-inside ml-4 text-gray-700">
+                    <h3 className="font-semibold text-lg text-gray-200">Used Technologies:</h3>
+                    <ul className="list-disc list-inside ml-4 text-gray-200">
                         {usedTechnologies.map((tech, index) => (
                             <li key={index}>{tech}</li>
                         ))}
                     </ul>
                 </div>
             </div>
-            <div className="px-6 py-4 bg-gray-100 border-t border-gray-200">
+            <div className="px-6 py-4 bg-slate-300/10 border-t border-gray-200">
                 <div className="flex justify-between items-center">
-                    <a href={liveLink} target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:text-indigo-900 font-bold">Live Link</a>
+                    <a href={liveLink} target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:text-green-700 font-bold">Live Link</a>
                     <div className="flex space-x-4">
-                        <a href={clientGitHub} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">Client Code</a>
-                        <a href={serverGitHub} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">Server Code</a>
+                        <a href={clientGitHub} target="_blank" rel="noopener noreferrer" className="text-gray-200 hover:text-gray-400">Client Code</a>
+                        <a href={serverGitHub} target="_blank" rel="noopener noreferrer" className="text-gray-200 hover:text-gray-400">Server Code</a>
                     </div>
                 </div>
             </div>
@@ -63,7 +64,7 @@ const Projects = () => {
                 "Product catalog with search and filtering options"
             ],
             usedTechnologies: ["React", "Javascript", "Tailwind CSS", "Node.js", "Firebase", "MongoDB", "Express.js"],
-            liveLink: "https://fanciful-salamander-074177.netlify.app/",
+            liveLink: "https://restaurant-management-website.netlify.app",
             clientGitHub: "https://github.com/nusrat3657/restaurant-management-client11",
             serverGitHub: "https://github.com/nusrat3657/restaurant-management-server11"
         },
@@ -85,9 +86,9 @@ const Projects = () => {
     ];
 
     return (
-        <div id="projects" className=" bg-slate-600">
+        <div id="projects" className="">
             <h1 className="text-4xl font-bold text-center pt-5 text-gray-200">My Projects</h1>
-            <div className="container mx-auto px-5 py-10 md:grid grid-cols-3 lg:gap-10 space-y-3 py-14 gap-2">
+            <div className="container mx-auto px-5 md:grid grid-cols-3 lg:gap-10 space-y-3 py-14 gap-2">
                 {projects.map((project, index) => (
                     <ProjectCard key={index} {...project} />
                 ))}

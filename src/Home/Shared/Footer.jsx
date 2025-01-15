@@ -1,9 +1,9 @@
-import { FaGithub, FaInstagram, FaLinkedin, FaMobile } from "react-icons/fa";
-import { IoMdCall, IoMdMail } from "react-icons/io";
+import { FaGithub, FaInstagram, FaLinkedin, } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-800 text-gray-300 py-8">
+        <footer className="bg-gray-400/20 text-gray-300 py-8">
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div>
