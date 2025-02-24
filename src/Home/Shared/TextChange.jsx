@@ -1,8 +1,9 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from "react";
 
 const TextChange = () => {
 
-    const texts = ["Nusrat Jahan","Nusrat Jahan","Nusrat Jahan"];
+    const texts = ["RAJU AHMMED","RAJU AHMMED","RAJU AHMMED"];
     const [currentText, setCurrentText] = useState("");
     const [endValue, setEndValue] = useState(true);
     const [isForward, setIsForward] = useState(true);
@@ -11,7 +12,7 @@ const TextChange = () => {
 
 
     useEffect(() => {
-        const intervalid = setInterval(() => {
+        const interValid = setInterval(() => {
              setCurrentText(texts[index].substring(0,endValue));
              if(isForward){
              setEndValue((prev) =>prev + 1);   
@@ -27,7 +28,7 @@ const TextChange = () => {
                 setIndex((prov)=>prov&texts.length)
              }
         }, 50);
-      return ()=>clearInterval(intervalid)
+      return ()=>clearInterval(interValid)
 
     }, [endValue, isForward, index, texts]);
     return (
