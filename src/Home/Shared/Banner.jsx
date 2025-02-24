@@ -23,7 +23,7 @@ const Banner = () => {
                   initial={{ x: -100, opacity: 0 }}
                   animate={{ x: 0, opacity: 1 }}
                   transition={{
-                    delay: 0.2, // "Web Developer" প্রথমে আসবে
+                    delay: 0.2, // "Web Developer" come first
                     x: { type: "spring", stiffness: 60 },
                     opacity: { duration: 1 },
                   }}
