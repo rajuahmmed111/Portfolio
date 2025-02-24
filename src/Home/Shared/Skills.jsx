@@ -13,6 +13,17 @@ const Skills = () => {
         { name: "Firebase", icon: <i className="devicon-firebase-plain colored"></i> },
         { name: "MongoDB", icon: <i className="devicon-mongodb-plain colored"></i> },
         { name: "Express.js", icon: <i className="devicon-express-original colored"></i> },
+        // typescript
+        { name: "TypeScript", icon: <i className="devicon-typescript-plain colored"></i> },
+        // Next.js
+        { name: "Next.js", icon: <i className="devicon-nextjs-original colored"></i> },
+        // prisma
+        { name: "Prisma", icon: <i className="devicon-prisma-original colored"></i> },
+        // PostgreSQL
+        { name: "PostgreSQL", icon: <i className="devicon-postgresql-plain colored"></i> },
+        // Git
+        { name: "Git", icon: <i className="devicon-git-plain colored"></i> },
+     
     ];
 
     const interpersonalSkills = [
