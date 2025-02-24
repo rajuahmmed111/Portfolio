@@ -56,8 +56,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-4 text-center text-xs text-gray-500">
-          {/* dynamic date time */}© {new Date().getFullYear()} Raju Ahmmed. All
-          rights reserved.
+          © {new Date().getFullYear()} Raju Ahmmed. All rights reserved.
         </div>
       </div>
     </footer>
