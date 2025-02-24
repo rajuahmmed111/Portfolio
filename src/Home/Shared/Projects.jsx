@@ -76,11 +76,12 @@ const Projects = () => {
   const projects = [
     {
       name: "Bistro Boss",
-      image: "https://i.ibb.co/dWz8VRq/Screenshot-2024-07-04-143338.png",
+      image: "https://i.ibb.co.com/V030cMN4/Screenshot-2025-02-24-170920.png",
       description:
         "An extensive range of sustainable lands and eco-friendly developments designed to foster a green and healthy lifestyle.",
       coreFeatures: [
         "User authentication and authorization",
+        "Payment using Stripe",
         "Each listing provides comprehensive information, including images, descriptions, prices, locations, and available facilities, helping you make informed decisions.",
         " Enjoy a smooth and interactive browsing experience, thanks to intuitive navigation and responsive design.",
       ],
@@ -90,6 +91,8 @@ const Projects = () => {
         "Tailwind CSS",
         "Node.js",
         "Firebase",
+        "MongoDB",
+        "Express.js",
       ],
       liveLink: "https://bistro-boss-da382.web.app/",
       clientGitHub: "https://github.com/rajuahmmed111/bistro-boss-client",
@@ -104,6 +107,9 @@ const Projects = () => {
         "User authentication and authorization",
         "Each listing provides comprehensive information, including images, descriptions, prices, locations, and available facilities, helping you make informed decisions.",
         " Enjoy a smooth and interactive browsing experience, thanks to intuitive navigation and responsive design.",
+        " User-friendly search and filter functionality.",
+        "google login",
+        "Google map integration.",
       ],
       usedTechnologies: [
         "React",
@@ -111,6 +117,8 @@ const Projects = () => {
         "Tailwind CSS",
         "Node.js",
         "Firebase",
+        "MongoDB",
+        "Express.js",
       ],
       liveLink: "https://assignment-9-320c5.web.app/",
       clientGitHub: "https://github.com/nusrat3657/make-private-repo-public9",
@@ -126,6 +134,8 @@ const Projects = () => {
         "Intuitive interface designed for easy navigation and interaction.",
         "Mark books as 'Read' or add them to your 'Wishlist' with just a click.",
         " Enjoy seamless browsing experience across all devices, from desktops to smartphones.",
+        "User authentication and authorization system.",
+        "User-friendly search and filter functionality.",
       ],
       usedTechnologies: [
         "React",
@@ -133,6 +143,8 @@ const Projects = () => {
         "Tailwind CSS",
         "Node.js",
         "Firebase",
+        "MongoDB",
+        "Express.js",
       ],
       liveLink: "https://aquamarine-cucurucho-2055b7.netlify.app/",
       clientGitHub: "https://github.com/nusrat3657/book-review8",
