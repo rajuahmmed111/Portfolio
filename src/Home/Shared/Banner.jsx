@@ -112,7 +112,6 @@ const Banner = () => {
                       <FaLinkedin className="text-2xl text-white" />
                     </a>
                   </p>
-                  {/* <p className="mb-2 border-2 border-[#10cc7b] p-2 rounded-full"> <a href="https://www.instagram.com/tonoyadiya/" className="text-blue-400"><FaInstagram className='text-2xl text-white' /></a></p> */}
                 </div>
               </motion.div>
             </div>
