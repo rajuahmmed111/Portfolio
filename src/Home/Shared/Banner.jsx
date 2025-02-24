@@ -35,7 +35,7 @@ const Banner = () => {
                   initial={{ x: -100, opacity: 0 }}
                   animate={{ x: 0, opacity: 1 }}
                   transition={{
-                    delay: 1.2, // "Hello I'm Roksana Akter" পরে আসবে
+                    delay: 1.2, // "Hello I'm Roksana Akter" then come
                     x: { type: "spring", stiffness: 60 },
                     opacity: { duration: 1 },
                   }}
