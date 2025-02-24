@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 // import image from '../../assets/about me.jpg'
-import image2 from '../../assets/20240629_155408.jpg'
+import image2 from '../../assets/001.jpg'
 
 const AboutMe = () => {
     return (
