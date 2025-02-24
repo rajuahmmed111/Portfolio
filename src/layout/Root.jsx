@@ -1,6 +1,5 @@
 import { Outlet } from "react-router-dom";
 import NavBar from "../Home/Shared/NavBar";
-// import Banner from "../Home/Shared/Banner";
 import AboutMe from "../Home/Shared/AboutMe";
 import ExperienceEducation from "../Home/Shared/ExperienceEducation";
 import Contact from "../Home/Shared/Contact";
