@@ -4,7 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { IoMdDownload } from "react-icons/io";
-import image from "../../assets/profile.png";
+import image from "../../assets/profile.jpg";
 import { MdDeveloperMode } from "react-icons/md";
 import TextChange from "./TextChange";
 
