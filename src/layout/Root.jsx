@@ -7,7 +7,7 @@ import Contact from "../Home/Shared/Contact";
 import Projects from "../Home/Shared/Projects";
 import Skills from "../Home/Shared/Skills";
 import Footer from "../Home/Shared/Footer";
-// import Resume from "../Home/Shared/Resume";
+import Resume from "../Home/Shared/Resume";
 import bgImg from "../assets/5052197.jpg";
 
 const Root = () => {
@@ -16,7 +16,7 @@ const Root = () => {
             <NavBar></NavBar>
             <Outlet></Outlet>
             <AboutMe></AboutMe>
-            {/* <Resume></Resume> */}
+            <Resume></Resume>
             <ExperienceEducation></ExperienceEducation>
             <Skills></Skills>
             <Projects></Projects>
