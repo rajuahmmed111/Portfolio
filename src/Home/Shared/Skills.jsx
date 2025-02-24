@@ -1,4 +1,4 @@
-import { FaUserFriends, FaComments } from 'react-icons/fa';
+import { FaUserFriends, FaComments, FaUserCog, FaBrain } from 'react-icons/fa';
 import 'devicon/devicon.min.css';
 
 const Skills = () => {
@@ -32,6 +32,10 @@ const Skills = () => {
         { name: "Problem Solving", icon: <FaComments /> },
         { name: "Adaptability", icon: <FaComments /> },
         { name: "Time Management", icon: <FaComments /> },
+        // more skills here...
+        { name: "Leadership", icon: <FaUserCog /> },
+        { name: "Strategic Thinking", icon: <FaBrain /> },
+        { name: "Public Speaking", icon: <FaComments /> },
     ];
 
     return (
