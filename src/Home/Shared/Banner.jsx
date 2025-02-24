@@ -70,9 +70,9 @@ const Banner = () => {
                 className="button-box flex flex-wrap justify-center md:justify-start "
               >
                 <a
-                  href="/WebDeveloper_Resume_of_Raju_Ahmmed.pdf"
+                  href="/WebDeveloper_Resume_of_Nusrat.pdf"
                   className="btn border-2 border-[#10cc7b] bg-neutral-900 text-white hover:bg-[#10cc7b] hover:text-black hover:border-[#10cc7b]"
-                  download={"WebDeveloper_Resume_of_Raju_Ahmmed.pdf"}
+                  download={"WebDeveloper_Resume_of_Nusrat.pdf"}
                 >
                   Download Resume{" "}
                   <span className="text-xl">
