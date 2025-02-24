@@ -147,11 +147,14 @@ const ExperienceEducation = () => {
             </div>
             <div className="timeline-end timeline-box bg-emerald-100 p-5 rounded-lg shadow">
               <h4 className="text-2xl font-bold">Web Developer Intern</h4>
-              <p className="text-gray-600 font-bold">Techlight IT Institute</p>
-              <p className="text-gray-600 font-semibold">July 2024 - Present</p>
+              <p className="text-gray-600 font-bold">SoftLab IT Ltd.</p>
+              <p className="text-gray-600 font-semibold">January-June 2023</p>
               <p className="mt-3">
-                - Assisted in developing responsive web applications using React
-                and Tailwind CSS.
+                - Assisted in developing responsive web applications using
+                avaScript, Tan-stack Query, React.js, Redux, Next.js, ShadCN,
+                TypeScript Express.JS, Node.JS, TypeScript, MongoDB,
+                Mongoose(ODM), Prisma(ORM), Web-Socket, Multer, Node-Corn, JWT,
+                OAuth.
                 <br />
                 - Collaborated with senior developers to design and implement
                 new features.
@@ -161,60 +164,6 @@ const ExperienceEducation = () => {
             </div>
           </li>
         </ul>
-
-        {/* <div className="space-y-12">
-                    <div className="flex gap-6">
-                        <h3 className="text-3xl font-semibold mb-6 text-white">Education</h3>
-                        <div className="space-y-6">
-                            <div className="bg-white p-5 rounded-lg shadow">
-                                <h4 className="text-2xl font-semibold">Higher Secondary School</h4>
-                                <p className="text-gray-600 font-bold">DN College</p>
-                                <p className="text-gray-600 font-semibold">2019 - 2021</p>
-                                <p className="mt-3">
-                                    - Major: Science.<br />
-                                    - Activities: Member of the Science Club, participated in science fairs.
-                                </p>
-                            </div>
-                            <div className="bg-white p-5 rounded-lg shadow">
-                                <h4 className="text-2xl font-semibold">Diploma in Computer Technology</h4>
-                                <p className="text-gray-600 font-bold">Dhaka Mohila Polytechnic Institute</p>
-                                <p className="text-gray-600 font-semibold">2020 - Present</p>
-                                <p className="mt-3">
-                                    - Coursework: Web Development, Database Management, Software Engineering.<br />
-                                    - Activities: Member of the Computer Club, participated in coding competitions.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex gap-6">
-                        <h3 className="text-3xl font-semibold mb-6 text-white">Experience</h3>
-                        <div className="space-y-6">
-                            <div className="bg-white p-5 rounded-lg shadow">
-                                <h4 className="text-2xl font-semibold">Web Development Course</h4>
-                                <p className="text-gray-600 font-bold">Programming Hero</p>
-                                <p className="text-gray-600 font-semibold">Completed in 2024</p>
-                                <p className="my-3">
-                                    - Learned HTML, CSS, JavaScript, React, Node.js, Express.js, Firebase, MongoDB, and Tailwind CSS.<br />
-                                    - Completed various hands-on projects to apply the learned concepts.<br />
-                                    - Participated in coding challenges and collaborative coding sessions.
-                                </p>
-                                <div className="px-6 py-4 border-t border-gray-200">
-                                    <a href={certificateLink} target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:text-indigo-900 font-bold">View Certificate</a>
-                                </div>
-                            </div>
-                            <div className="bg-white p-5 rounded-lg shadow">
-                                <h4 className="text-2xl font-semibold">Web Developer Intern</h4>
-                                <p className="text-gray-600 font-bold">Techlight IT Institute</p>
-                                <p className="text-gray-600 font-semibold">July 2024 - Present</p>
-                                <p className="mt-3">
-                                    - Assisted in developing responsive web applications using React and Tailwind CSS.<br />
-                                    - Collaborated with senior developers to design and implement new features.<br />
-                                    - Participated in code reviews and contributed to improving code quality.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
       </div>
     </div>
   );
