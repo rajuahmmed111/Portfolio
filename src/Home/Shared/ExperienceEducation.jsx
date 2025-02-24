@@ -1,4 +1,4 @@
-import certificateLink from "../../assets/certificate.pdf";
+// import certificateLink from "../../assets/certificate.pdf";
 
 const ExperienceEducation = () => {
   return (
@@ -104,17 +104,19 @@ const ExperienceEducation = () => {
                 Web Development Course
               </h4>
               <p className="text-gray-600 font-bold">Programming Hero</p>
-              <p className="text-gray-600 font-semibold">Completed in 2024</p>
+              <p className="text-gray-600 font-semibold">Completed in 2023</p>
               <p className="my-3">
-                - Learned HTML, CSS, JavaScript, React, Node.js, Express.js,
-                Firebase, MongoDB, and Tailwind CSS.
+                - Learned HTML5, CSS3, Tailwind CSS, Material UI, JavaScript,
+                Tan-stack Query, React.js, Redux, Next.js, ShadCN, TypeScript
+                Express.JS, Node.JS, TypeScript, MongoDB, Mongoose(ODM),
+                Prisma(ORM), Web-Socket, Multer, Node-Corn, JWT, OAuth.
                 <br />
                 - Completed various hands-on projects to apply the learned
                 concepts.
                 <br />- Participated in coding challenges and collaborative
                 coding sessions.
               </p>
-              <div className=" py-4 border-t border-emerald-400">
+              {/* <div className=" py-4 border-t border-emerald-400">
                 <a
                   href={certificateLink}
                   target="_blank"
@@ -123,7 +125,7 @@ const ExperienceEducation = () => {
                 >
                   View Certificate
                 </a>
-              </div>
+              </div> */}
             </div>
             <hr />
           </li>
