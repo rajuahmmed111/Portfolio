@@ -13,9 +13,11 @@ const AboutMe = () => {
             <p className="text-lg mb-4">
               Hello! I'm RAJU AHMMED, a passionate web developer with experience
               in creating dynamic and responsive web applications. I specialize
-              in HTML, CSS, Javascript, React, Tailwind CSS, Node.js,
-              Express.js, Firebase, MongoDB and other modern web development
-              technologies.
+              in HTML5, CSS3, Tailwind CSS, Material UI, JavaScript, Tan-stack
+              Query, React.js, Redux, Next.js, ShadCN, TypeScript Express.JS,
+              Node.JS, TypeScript, MongoDB, Mongoose(ODM), Prisma(ORM),
+              Web-Socket, Multer, Node-Corn, JWT, OAuth and other modern web
+              development technologies.
             </p>
             <p className="text-lg mb-4">
               I love coding, and I am constantly learning and experimenting with
