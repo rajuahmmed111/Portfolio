@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-// import image from '../../assets/about me.jpg'
 import image2 from "../../assets/DSC_0195 - Copy.png";
 
 const AboutMe = () => {
