@@ -87,7 +87,7 @@ const Banner = () => {
                   <p className="mb-2 border-2 border-[#10cc7b] p-2 rounded-full">
                     {" "}
                     <a
-                      href="https://web.facebook.com/afrin.tisha.524934"
+                      href="https://www.facebook.com/profile.php?id=100033792314596"
                       className="text-blue-400 "
                     >
                       <FaFacebook className="text-2xl text-white" />
@@ -97,7 +97,7 @@ const Banner = () => {
                   <p className="mb-2 border-2 border-[#10cc7b] p-2 rounded-full">
                     {" "}
                     <a
-                      href="https://github.com/nusrat3657"
+                      href="https://github.com/rajuahmmed111"
                       className="text-blue-400"
                     >
                       <FaGithub className="text-2xl text-white" />
@@ -106,7 +106,7 @@ const Banner = () => {
                   <p className="mb-2 border-2 border-[#10cc7b] p-2 rounded-full">
                     {" "}
                     <a
-                      href="https://www.linkedin.com/in/nusrat-jahan-r7/"
+                      href="https://www.linkedin.com/in/md-raju-ahmed-91830a285/"
                       className="text-blue-400"
                     >
                       <FaLinkedin className="text-2xl text-white" />
