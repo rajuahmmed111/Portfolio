@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 
-// eslint-disable-next-line react/prop-types
 const ProjectCard = ({
   name,
   image,
