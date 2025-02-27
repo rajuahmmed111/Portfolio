@@ -87,6 +87,8 @@ const Banner = () => {
                     className="tj flaticon flaticon-download ml-2"
                   ></i>
                 </a>
+
+                {/* social links */}
                 <div className="flex gap-4 lg:ml-4 lg:my-0 md:my-4 my-4">
                   <p className="mb-2 border-2 border-[#10cc7b] p-2 rounded-full">
                     {" "}
