@@ -25,6 +25,8 @@ const Footer = () => {
               </a>
             </p>
           </div>
+
+          {/* social links */}
           <div>
             <h2 className="text-lg font-semibold mb-2">Social</h2>
             <div className="flex space-x-4">
