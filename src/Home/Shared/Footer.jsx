@@ -55,6 +55,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        {/* show customized getFullYear */}
         <div className="mt-4 text-center text-xs text-gray-500">
           © {new Date().getFullYear()} Raju Ahmmed. All rights reserved.
         </div>
