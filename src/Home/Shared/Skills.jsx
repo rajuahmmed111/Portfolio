@@ -27,6 +27,7 @@ const Skills = () => {
      
     ];
 
+    // interpersonal skills
     const interpersonalSkills = [
         { name: "Communication Skills", icon: <FaUserFriends /> },
         { name: "Teamwork", icon: <FaUserFriends /> },
