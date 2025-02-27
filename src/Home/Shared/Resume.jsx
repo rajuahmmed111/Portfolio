@@ -31,7 +31,7 @@ const Resume = () => {
             <a
               href={resumePdfUrl}
               className="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded inline-flex items-center transition duration-300"
-              download="Nusrat'sResume.pdf"
+              download="raju'sResume.pdf"
             >
               <svg
                 className="h-5 w-5 mr-2"
