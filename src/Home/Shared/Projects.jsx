@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 
+// project card
 const ProjectCard = ({
   name,
   image,
