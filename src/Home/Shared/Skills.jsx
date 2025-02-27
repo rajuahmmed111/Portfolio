@@ -1,6 +1,7 @@
 import { FaUserFriends, FaComments, FaUserCog, FaBrain } from 'react-icons/fa';
 import 'devicon/devicon.min.css';
 
+// skills info and icons
 const Skills = () => {
     const technicalSkills = [
         { name: "HTML5", icon: <i className="devicon-html5-plain colored"></i> },
