@@ -4,6 +4,8 @@ import image2 from "../../assets/DSC_0195 - Copy.png";
 const AboutMe = () => {
   return (
     <div id="about" className="bg-opacity-20  md:p-24 p-8">
+
+      {/* about */}
       <div className="lg:w-full  w-full  text-slate-300">
         <h2 className="text-4xl font-bold text-emerald-400 md:mb-10 mb-8 lg:ml-14">
           About Me
