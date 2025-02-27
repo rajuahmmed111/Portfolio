@@ -43,6 +43,8 @@ const Banner = () => {
                 >
                   Hey There I'm{" "}
                   <span className=" font-roboto font-bold mb-2 text-[#10cc7b] flex">
+                    
+                    {/* import  */}
                     <TextChange />
                   </span>
                 </motion.p>
