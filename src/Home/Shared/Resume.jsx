@@ -1,4 +1,6 @@
 const Resume = () => {
+
+  // resume store in google drive then share link
   const resumePdfUrl =
     "https://drive.google.com/file/d/1jilwN_tjTCzce3wTT5fGxpCsN4MikGW9/view?usp=sharing";
 
