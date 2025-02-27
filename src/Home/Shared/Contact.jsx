@@ -11,6 +11,8 @@ const Contact = () => {
             Contact Information
           </h2>
           <p>Fill in the form to start a conversation</p>
+
+          {/* social */}
           <div className="text-center w-full pt-20 flex text-5xl gap-5 mx-auto">
             <a href="mailto:ahraju2003@gmail.com" className="text-yellow-600">
               <IoMdMail></IoMdMail>
