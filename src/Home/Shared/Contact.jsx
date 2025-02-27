@@ -43,6 +43,8 @@ const Contact = () => {
             </a>
           </div>
         </div>
+
+        {/* send message form */}
         <EmailForm></EmailForm>
       </div>
     </div>
