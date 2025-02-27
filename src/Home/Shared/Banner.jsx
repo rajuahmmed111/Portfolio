@@ -122,6 +122,8 @@ const Banner = () => {
               </motion.div>
             </div>
           </div>
+
+          {/* left side */}
           <div className="hidden md:block md:w-1/2">
             <div className="hero-image-box text-center">
               <motion.img
