@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 
 const TextChange = () => {
 
+    // changing text
     const texts = ["RAJU AHMMED","RAJU AHMMED","RAJU AHMMED"];
     const [currentText, setCurrentText] = useState("");
     const [endValue, setEndValue] = useState(true);
