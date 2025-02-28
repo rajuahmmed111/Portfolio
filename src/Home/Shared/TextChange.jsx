@@ -32,6 +32,8 @@ const TextChange = () => {
       return ()=>clearInterval(interValid)
 
     }, [endValue, isForward, index, texts]);
+
+    // return current text
     return (
         <div className="transition ease duration-500">
             {currentText}
