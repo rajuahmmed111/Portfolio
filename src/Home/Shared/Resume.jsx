@@ -2,7 +2,7 @@ const Resume = () => {
 
   // resume store in google drive then share link
   const resumePdfUrl =
-    "https://drive.google.com/file/d/1jilwN_tjTCzce3wTT5fGxpCsN4MikGW9/view?usp=sharing";
+    "https://drive.google.com/file/d/1l965z9Bn8NmMqJaqVjhn_mQembA4vL8K/view?usp=sharing";
 
   return (
     <div id="resume" className=" ">
@@ -54,7 +54,7 @@ const Resume = () => {
             <p>
               If you have any trouble viewing the resume, please contact me at{" "}
               <a
-                href="mailto:nusratjahan3657r@gmail.com"
+                href="mailto:ahraju2003@gmail.com"
                 className="text-green-500"
               >
                 ahraju2003@gmail.com
