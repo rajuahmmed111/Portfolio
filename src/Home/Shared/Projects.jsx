@@ -99,7 +99,7 @@ const Projects = () => {
       serverGitHub: "https://github.com/rajuahmmed111/bistro-boss-server",
     },
     {
-      name: "Eco Domain",
+      name: "Fasify Booking Website",
       image: "https://i.ibb.co/dWz8VRq/Screenshot-2024-07-04-143338.png",
       description:
         "An extensive range of sustainable lands and eco-friendly developments designed to foster a green and healthy lifestyle.",
