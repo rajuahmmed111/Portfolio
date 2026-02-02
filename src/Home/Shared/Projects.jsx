@@ -100,29 +100,61 @@ const Projects = () => {
     },
     {
       name: "Fasify Booking Website",
-      image: "https://i.ibb.co/dWz8VRq/Screenshot-2024-07-04-143338.png",
+      image: "https://i.ibb.co.com/xSrsC3yn/Screenshot-2026-02-03-000449.png",
       description:
-        "An extensive range of sustainable lands and eco-friendly developments designed to foster a green and healthy lifestyle.",
+        "A one-stop platform for booking hotels, cars, security services, and local attractions. Enjoy seamless reservations, secure payments, and instant confirmations for a hassle-free travel and service experience.",
       coreFeatures: [
         "User authentication and authorization",
         "Each listing provides comprehensive information, including images, descriptions, prices, locations, and available facilities, helping you make informed decisions.",
-        " Enjoy a smooth and interactive browsing experience, thanks to intuitive navigation and responsive design.",
-        " User-friendly search and filter functionality.",
-        "google login",
-        "Google map integration.",
+        "Enjoy a smooth and interactive browsing experience, thanks to intuitive navigation and responsive design.",
+        "User-friendly search and filter functionality",
+        "Google login",
+        "Google Maps integration",
+        "Book hotels, cars, security services, and attractions seamlessly",
+        "Instant booking confirmation",
+        "Dynamic country-wise pricing based on user location",
+        "Secure, multi-option payments (Stripe, PayPal, Paystack, SSLCommerz, Flutterwave, Payoneer)",
+        "User dashboard to manage bookings, favorites, and history",
+        "Ratings and reviews for services",
+        "Admin panel for content, booking, and analytics management",
       ],
+
       usedTechnologies: [
-        "React",
-        "Javascript",
+        // Frontend
+        "HTML5",
+        "CSS3",
         "Tailwind CSS",
+        "JavaScript",
+        "TypeScript",
+        "React.js",
+        "Redux",
+        "ShadCN",
+
+        // Backend
         "Node.js",
-        "Firebase",
-        "MongoDB",
         "Express.js",
+        "MongoDB",
+        "Prisma (ORM)",
+        "WebSocket",
+        "Multer",
+        "Node-Cron",
+        "Google Maps integration with country-wise pricing and country-specific payment gateways",
+
+        // Authentication
+        "JWT",
+        "OAuth",
+
+        // Payment Gateway
+        "Stripe",
+        "Paystack",
+
+        // Deployment
+        "AWS",
       ],
+
       liveLink: "https://assignment-9-320c5.web.app/",
-      clientGitHub: "https://github.com/nusrat3657/make-private-repo-public9",
-      // serverGitHub: "https://github.com/username/project-server"
+      clientGitHub: "https://github.com/rajuahmmed111/timothy-frontend",
+      serverGitHub: "https://github.com/rajuahmmed111/timothy-backend",
     },
 
     {
