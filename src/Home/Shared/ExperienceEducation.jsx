@@ -163,6 +163,49 @@ const ExperienceEducation = () => {
               </p>
             </div>
           </li>
+          <li>
+            <hr />
+            <div className="timeline-middle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="h-5 w-5"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </div>
+            <div className="timeline-end timeline-box bg-emerald-100 p-5 rounded-lg shadow">
+              <h4 className="text-2xl font-bold">Full Stack Web Developer</h4>
+              <p className="text-gray-600 font-bold">
+                Sparktech Agency IT Ltd., Mohakhali, Dhaka
+              </p>
+              <p className="text-gray-600 font-semibold">
+                August 2024 – Present
+              </p>
+              <p className="mt-3">
+                <strong>Frontend Design:</strong> HTML5, CSS3, Tailwind CSS,
+                Material UI, JavaScript, React.js, Redux, Next.js, ShadCN,
+                TypeScript.
+                <br />
+                <strong>Backend Development:</strong> Express.js, Node.js,
+                TypeScript, MongoDB, PostgreSQL, Mongoose (ODM), Prisma (ORM),
+                WebSockets, Multer, Node-Cron.
+                <br />
+                <strong>Authentication:</strong> JWT, OAuth.
+                <br />
+                <strong>Payment Gateway Integration:</strong> SSLCommerz,
+                Stripe, PayPal, Paystack, Flutterwave, Payoneer.
+                <br />
+                <strong>Deployment & DevOps:</strong> AWS, Cloudflare, Vercel,
+                Render, Netlify.
+              </p>
+            </div>
+          </li>
         </ul>
       </div>
     </div>
