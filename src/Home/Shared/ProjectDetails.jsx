@@ -88,10 +88,10 @@ const ProjectDetails = () => {
     },
 
     {
-      name: "Bookworm's Paradise",
-      image: "https://i.ibb.co/6Hxjv1d/Screenshot-2024-07-04-144649.png",
+      name: "Counta App",
+      image: "https://i.ibb.co.com/Qv4Lv9vM/Screenshot-2026-02-03-121031.png",
       description:
-        "Our website is dedicated to providing in-depth reviews, insightful recommendations, and a vibrant community for book lovers of all genres.",
+        "A comprehensive service delivery platform for call tracking, billing management, and customer communication. Provides maintainable services with automated billing processes and real-time updates.",
       coreFeatures: [
         "Intuitive interface designed for easy navigation and interaction.",
         "Mark books as 'Read' or add them to your 'Wishlist' with just a click.",
@@ -100,17 +100,28 @@ const ProjectDetails = () => {
         "User-friendly search and filter functionality.",
       ],
       usedTechnologies: [
-        "React",
-        "Javascript",
-        "Tailwind CSS",
+        // Frontend
+        "Flutter",
+        "Dart",
+
+        // Backend
         "Node.js",
-        "Firebase",
-        "MongoDB",
         "Express.js",
+        "MongoDB",
+        "Prisma (ORM)",
+        "JWT",
+        "OAuth",
+
+        // Payment Gateway
+        "PayPal",
+
+        // Deployment
+        "AWS",
       ],
-      liveLink: "https://aquamarine-cucurucho-2055b7.netlify.app/",
-      clientGitHub: "https://github.com/nusrat3657/book-review8",
-      serverGitHub: "https://github.com/nusrat3657/restaurant-management-server11"
+      liveLink:
+        "https://play.google.com/store/apps/details?id=com.rita.counta_app",
+      clientGitHub: "https://github.com/rajuahmmed111/therapist-frontend",
+      serverGitHub: "https://github.com/rajuahmmed111/therapist-backend",
     },
   ];
 
@@ -133,18 +144,18 @@ const ProjectDetails = () => {
         >
           ← Back to Projects
         </button>
-        
+
         <div className="bg-slate-800 rounded-lg overflow-hidden shadow-xl">
-          <img 
-            className="w-full h-64 object-cover" 
-            src={project.image} 
-            alt={project.name} 
+          <img
+            className="w-full h-64 object-cover"
+            src={project.image}
+            alt={project.name}
           />
-          
+
           <div className="p-8">
             <h1 className="text-4xl font-bold mb-4">{project.name}</h1>
             <p className="text-lg mb-8 text-gray-300">{project.description}</p>
-            
+
             <div className="mb-8">
               <h2 className="text-2xl font-semibold mb-4">Core Features</h2>
               <ul className="list-disc list-inside space-y-2 text-gray-300">
@@ -153,7 +164,7 @@ const ProjectDetails = () => {
                 ))}
               </ul>
             </div>
-            
+
             <div className="mb-8">
               <h2 className="text-2xl font-semibold mb-4">Used Technologies</h2>
               <ul className="list-disc list-inside space-y-2 text-gray-300">
@@ -162,7 +173,7 @@ const ProjectDetails = () => {
                 ))}
               </ul>
             </div>
-            
+
             <div className="flex flex-wrap gap-4">
               <a
                 href={project.liveLink}

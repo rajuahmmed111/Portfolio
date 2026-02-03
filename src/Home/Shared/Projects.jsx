@@ -11,8 +11,8 @@ const ProjectCard = ({
   projectId,
 }) => {
   return (
-    <div className="max-w-lg mx-auto bg-slate-800 text-gray-200 shadow-xl rounded-lg overflow-hidden mb-8">
-      <div className="px-6 py-4">
+    <div className="max-w-lg mx-auto bg-slate-800 text-gray-200 shadow-xl rounded-lg overflow-hidden mb-8 h-[520px] flex flex-col">
+      <div className="px-6 py-4 flex-grow">
         <img className="p-4 rounded-lg" src={image} alt="" />
         <h2 className="font-bold text-2xl mb-2 text-gray-200">{name}</h2>
         <p className="text-gray-200 text-base mb-4">{description}</p>
@@ -65,7 +65,7 @@ const Projects = () => {
       name: "Bistro Boss",
       image: "https://i.ibb.co.com/V030cMN4/Screenshot-2025-02-24-170920.png",
       description:
-        "An extensive range of sustainable lands and eco-friendly developments designed to foster a green and healthy lifestyle.",
+        "A modern restaurant management system with comprehensive ordering, payment, and inventory management features. Built for seamless restaurant operations with real-time updates and analytics.",
       coreFeatures: [
         "User authentication and authorization",
         "Payment using Stripe",
@@ -89,7 +89,7 @@ const Projects = () => {
       name: "Fasify Booking Website",
       image: "https://i.ibb.co.com/xSrsC3yn/Screenshot-2026-02-03-000449.png",
       description:
-        "A one-stop platform for booking hotels, cars, security services, and local attractions. Enjoy seamless reservations, secure payments, and instant confirmations for a hassle-free travel and service experience.",
+        "A comprehensive booking platform that connects users with hotels, cars, security services, and local attractions. Features dynamic pricing, secure payments, and instant confirmations for a seamless travel experience.",
       coreFeatures: [
         "User authentication and authorization",
         "Each listing provides comprehensive information, including images, descriptions, prices, locations, and available facilities, helping you make informed decisions.",
@@ -145,10 +145,10 @@ const Projects = () => {
     },
 
     {
-      name: "Bookworm's Paradise",
-      image: "https://i.ibb.co/6Hxjv1d/Screenshot-2024-07-04-144649.png",
+      name: "Counta App",
+      image: "https://i.ibb.co.com/Qv4Lv9vM/Screenshot-2026-02-03-121031.png",
       description:
-        "Our website is dedicated to providing in-depth reviews, insightful recommendations, and a vibrant community for book lovers of all genres.",
+        "A comprehensive service delivery platform for call tracking, billing management, and customer communication. Provides maintainable services with automated billing processes and real-time updates.",
       coreFeatures: [
         "Intuitive interface designed for easy navigation and interaction.",
         "Mark books as 'Read' or add them to your 'Wishlist' with just a click.",
@@ -157,18 +157,28 @@ const Projects = () => {
         "User-friendly search and filter functionality.",
       ],
       usedTechnologies: [
-        "React",
-        "Javascript",
-        "Tailwind CSS",
+        // Frontend
+        "Flutter",
+        "Dart",
+
+        // Backend
         "Node.js",
-        "Firebase",
-        "MongoDB",
         "Express.js",
+        "MongoDB",
+        "Prisma (ORM)",
+        "JWT",
+        "OAuth",
+
+        // Payment Gateway
+        "PayPal",
+
+        // Deployment
+        "AWS",
       ],
-      liveLink: "https://aquamarine-cucurucho-2055b7.netlify.app/",
-      clientGitHub: "https://github.com/nusrat3657/book-review8",
-      serverGitHub:
-        "https://github.com/nusrat3657/restaurant-management-server11",
+      liveLink:
+        "https://play.google.com/store/apps/details?id=com.rita.counta_app",
+      clientGitHub: "https://github.com/rajuahmmed111/therapist-frontend",
+      serverGitHub: "https://github.com/rajuahmmed111/therapist-backend",
     },
     // Add more projects here
   ];
