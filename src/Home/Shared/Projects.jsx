@@ -16,16 +16,14 @@ const ProjectCard = ({
         <img className="p-4 rounded-lg" src={image} alt="" />
         <h2 className="font-bold text-2xl mb-2 text-gray-200">{name}</h2>
         <p className="text-gray-200 text-base mb-4">{description}</p>
+        <button
+          onClick={() => (window.location.href = `/project/${projectId}`)}
+          className="text-blue-400 hover:text-blue-600 font-bold mb-4"
+        >
+          View Details
+        </button>
       </div>
       <div className="px-6 py-4 bg-slate-300/10 border-t border-gray-200">
-        <div className="flex justify-between items-center mb-3">
-          <button
-            onClick={() => (window.location.href = `/project/${projectId}`)}
-            className="text-blue-400 hover:text-blue-600 font-bold"
-          >
-            View Details
-          </button>
-        </div>
         <div className="flex justify-between items-center">
           <a
             href={liveLink}
@@ -169,7 +167,8 @@ const Projects = () => {
       ],
       liveLink: "https://aquamarine-cucurucho-2055b7.netlify.app/",
       clientGitHub: "https://github.com/nusrat3657/book-review8",
-      // serverGitHub: "https://github.com/nusrat3657/restaurant-management-server11"
+      serverGitHub:
+        "https://github.com/nusrat3657/restaurant-management-server11",
     },
     // Add more projects here
   ];

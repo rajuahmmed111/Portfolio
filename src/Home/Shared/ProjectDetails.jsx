@@ -110,7 +110,7 @@ const ProjectDetails = () => {
       ],
       liveLink: "https://aquamarine-cucurucho-2055b7.netlify.app/",
       clientGitHub: "https://github.com/nusrat3657/book-review8",
-      // serverGitHub: "https://github.com/nusrat3657/restaurant-management-server11"
+      serverGitHub: "https://github.com/nusrat3657/restaurant-management-server11"
     },
   ];
 
