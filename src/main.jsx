@@ -8,6 +8,8 @@ import {
 import Root from './layout/Root.jsx';
 import Banner from './Home/Shared/Banner.jsx';
 import AboutMe from './Home/Shared/AboutMe.jsx';
+import Projects from './Home/Shared/Projects.jsx';
+import ProjectDetails from './Home/Shared/ProjectDetails.jsx';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +23,14 @@ const router = createBrowserRouter([
       {
         path: '/about',
         element: <AboutMe></AboutMe>
+      },
+      {
+        path: '/projects',
+        element: <Projects></Projects>
+      },
+      {
+        path: '/project/:projectId',
+        element: <ProjectDetails></ProjectDetails>
       },
     ]
   },

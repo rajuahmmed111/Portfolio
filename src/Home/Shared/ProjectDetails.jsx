@@ -1,67 +1,8 @@
-/* eslint-disable react/prop-types */
+import { useParams } from "react-router-dom";
 
-// project card
-const ProjectCard = ({
-  name,
-  image,
-  description,
-  liveLink,
-  clientGitHub,
-  serverGitHub,
-  projectId,
-}) => {
-  return (
-    <div className="max-w-lg mx-auto bg-slate-800 text-gray-200 shadow-xl rounded-lg overflow-hidden mb-8">
-      <div className="px-6 py-4">
-        <img className="p-4 rounded-lg" src={image} alt="" />
-        <h2 className="font-bold text-2xl mb-2 text-gray-200">{name}</h2>
-        <p className="text-gray-200 text-base mb-4">{description}</p>
-      </div>
-      <div className="px-6 py-4 bg-slate-300/10 border-t border-gray-200">
-        <div className="flex justify-between items-center mb-3">
-          <button
-            onClick={() => (window.location.href = `/project/${projectId}`)}
-            className="text-blue-400 hover:text-blue-600 font-bold"
-          >
-            View Details
-          </button>
-        </div>
-        <div className="flex justify-between items-center">
-          <a
-            href={liveLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-emerald-400 hover:text-green-700 font-bold"
-          >
-            Live Link
-          </a>
-          <div className="flex space-x-4">
-            <a
-              href={clientGitHub}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-200 hover:text-gray-400"
-            >
-              Client Code
-            </a>
-            {serverGitHub && (
-              <a
-                href={serverGitHub}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-200 hover:text-gray-400"
-              >
-                Server Code
-              </a>
-            )}
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
+const ProjectDetails = () => {
+  const { projectId } = useParams();
 
-const Projects = () => {
   const projects = [
     {
       name: "Bistro Boss",
@@ -171,21 +112,90 @@ const Projects = () => {
       clientGitHub: "https://github.com/nusrat3657/book-review8",
       // serverGitHub: "https://github.com/nusrat3657/restaurant-management-server11"
     },
-    // Add more projects here
   ];
 
+  const project = projects[projectId];
+
+  if (!project) {
+    return (
+      <div className="min-h-screen bg-slate-900 text-gray-200 flex items-center justify-center">
+        <h1 className="text-3xl font-bold">Project not found</h1>
+      </div>
+    );
+  }
+
   return (
-    <div id="projects" className="">
-      <h1 className="text-4xl font-bold text-center pt-5 text-gray-200">
-        My Projects
-      </h1>
-      <div className="container mx-auto px-5 md:grid grid-cols-3 lg:gap-10 space-y-3 py-14 gap-2">
-        {projects.map((project, index) => (
-          <ProjectCard key={index} {...project} projectId={index} />
-        ))}
+    <div className="min-h-screen bg-slate-900 text-gray-200 py-8">
+      <div className="container mx-auto px-4 max-w-4xl">
+        <button
+          onClick={() => window.history.back()}
+          className="mb-6 text-blue-400 hover:text-blue-600 font-bold"
+        >
+          ← Back to Projects
+        </button>
+        
+        <div className="bg-slate-800 rounded-lg overflow-hidden shadow-xl">
+          <img 
+            className="w-full h-64 object-cover" 
+            src={project.image} 
+            alt={project.name} 
+          />
+          
+          <div className="p-8">
+            <h1 className="text-4xl font-bold mb-4">{project.name}</h1>
+            <p className="text-lg mb-8 text-gray-300">{project.description}</p>
+            
+            <div className="mb-8">
+              <h2 className="text-2xl font-semibold mb-4">Core Features</h2>
+              <ul className="list-disc list-inside space-y-2 text-gray-300">
+                {project.coreFeatures.map((feature, index) => (
+                  <li key={index}>{feature}</li>
+                ))}
+              </ul>
+            </div>
+            
+            <div className="mb-8">
+              <h2 className="text-2xl font-semibold mb-4">Used Technologies</h2>
+              <ul className="list-disc list-inside space-y-2 text-gray-300">
+                {project.usedTechnologies.map((tech, index) => (
+                  <li key={index}>{tech}</li>
+                ))}
+              </ul>
+            </div>
+            
+            <div className="flex flex-wrap gap-4">
+              <a
+                href={project.liveLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-lg font-semibold"
+              >
+                Live Link
+              </a>
+              <a
+                href={project.clientGitHub}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg font-semibold"
+              >
+                Client Code
+              </a>
+              {project.serverGitHub && (
+                <a
+                  href={project.serverGitHub}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg font-semibold"
+                >
+                  Server Code
+                </a>
+              )}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
 };
 
-export default Projects;
+export default ProjectDetails;
