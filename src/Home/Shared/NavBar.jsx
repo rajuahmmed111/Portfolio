@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   const navLinks = (
     <>
-    {/* home */}
+      {/* home */}
       <li>
         <Link
           to="home"
@@ -17,7 +17,7 @@ const Navbar = () => {
         </Link>
       </li>
 
-{/* skills */}
+      {/* skills */}
       <li>
         <Link
           to="skills"
@@ -30,6 +30,8 @@ const Navbar = () => {
           Skills
         </Link>
       </li>
+
+      {/* projects */}
       <li>
         <Link
           to="projects"
