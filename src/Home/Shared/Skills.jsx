@@ -1,6 +1,7 @@
 import { FaUserFriends, FaComments, FaUserCog, FaBrain } from "react-icons/fa";
 import "devicon/devicon.min.css";
 
+// skill
 const Skills = () => {
   const backendSkills = [
     { name: "Node.js", icon: <i className="devicon-nodejs-plain colored"></i> },
