@@ -44,6 +44,8 @@ const Navbar = () => {
           Projects
         </Link>
       </li>
+
+      {/* education */}
       <li>
         <Link
           to="education"
@@ -56,6 +58,8 @@ const Navbar = () => {
           Education
         </Link>
       </li>
+
+      {/* contact */}
       <li>
         <Link
           to="contact"
